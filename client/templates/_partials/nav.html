@@ -7,19 +7,12 @@
       <ul class="nav navbar-nav">
         <li class="nav navbar-nav">
             <a href="{{pathFor 'homeIndex'}}">
-              HOME
+              Home
             </a>
         </li>
-        <li class="nav navbar-nav">
-          <a href="{{pathFor 'homeLogin'}}">
-              Login
-          </a>
-        </li>
-        <li class="nav navbar-nav">
-          <a href="{{pathFor 'homeRegister'}}">
-              Register
-          </a>
-        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+            {{> loginButtons}}
       </ul>
     </div>
   </nav>
