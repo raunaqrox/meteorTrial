@@ -1,0 +1,4 @@
+<template name="loggedInProfile">
+  <h1>Your details</h1>
+  <h2>{{message}}</h2>
+</template>
